@@ -1,0 +1,680 @@
+/*
+Template Name: AppStation - App Landing Bootstrap HTML5/CSS3 One Page Template
+Template URI: http://www.wpfreeware.com/appstation-free-bootstrap-html5-app-landing-page-theme/
+Author: WpFreeware Team
+Author URI: http://www.wpfreeware.com/
+Description: AppStation - App Landing Bootstrap HTML5/CSS3 One Page Template.
+Version: 1.0
+Tags: light, white, App landing page,landing page,single page,Bootstrap,responsive, html5, css3
+*/
+
+
+/* Table of Content
+==================================================
+  #BASIC TYPOGRAPHY
+  #HEADER
+  #FEATURE SECTION
+  #PRICE SECTION
+  #VIDEO SECTION
+  #TESTIMONIAL
+  #NEWSLETTER
+  #CLIENTS
+  #CONTACT
+  #FOOTER
+  #RESPONSIVE CSS 
+*/
+
+
+/*--------------------*/
+/* BASIC TYPOGRAPHY */
+/*--------------------*/
+
+body{}
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: 0px 400px;}
+}
+.home-product {
+  background-image:url(../Images/back.jpg);
+  opacity: 0.6;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    color:#fff !important;
+ margin-bottom: 50px;
+  -webkit-animation: backgroundScroll 35s linear infinite;
+animation: backgroundScroll 10s linear infinite;
+
+ 
+
+}
+.main-text{
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+
+}
+.main-text2{
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Calibri Light;
+}
+/*----------------------*/
+
+.home{
+background-repeat:no-repeat;
+background-position:center;
+background-size: cover;
+}
+.control-label{
+color:#FFFFFF;
+}
+
+.navbar-default{
+  background: rgba(0,0,0,0.0.5);
+  border-bottom: 1px solid rgba(0,0,0,0.9);
+	margin-bottom:0px;
+  border-bottom: 0px;
+  color: rgba(0,0,0,0.7);
+  padding: -15px;
+}
+.navbar-default .navbar-nav  li{
+margin-left: 5px;
+}
+.navbar-default .navbar-nav  .home-link{
+color: rgba(0,0,0,0.5);
+font-size: 30px;
+font-weight: 900;
+border: 3px solid transparent;
+}
+.navbar-default .navbar-nav  .home-link:hover,
+.navbar-default .navbar-nav  .home-link:focus{
+
+
+}
+.navbar-default .navbar-nav  li a{
+color: rgba(0,0,0,0.7);
+
+}
+.navbar-default .navbar-nav .btn{
+  text-transform: uppercase;
+color: white;
+padding: 8px;
+border-radius: 20px;
+border: 3px solid white;
+
+}
+.navbar-default .navbar-nav .btn:hover,
+.navbar-default .navbar-nav .btn:focus{
+color: #3CE17B;
+padding: 8px;
+border-radius: 20px;
+border: 3px solid#3CE17B ;
+background: white;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+ 
+}
+.navbar-default .navbar-brand {
+ 
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+ 
+}
+.btn-report {
+  background: red;
+  padding: 10px;
+}
+/*--------------------*/
+/* FEATURE SECTION */
+/*--------------------*/
+
+#featuresSection {
+  background-color:#FFFFFF;
+  display: inline;
+  float: left;
+  padding-top: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+.features_ara{
+  float: left;
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+.features_ara h1 {
+  color:#000000; 
+  font-size: 47px;
+  margin-bottom: 15px;
+}
+.features_ara p {
+  color: #606060;
+  font-size: 18px;
+  line-height: 28px;
+}
+.features_responsive {
+  display: inline;
+  float: left;
+  margin-top: 67px;
+  width: 100%;
+}
+
+.single_features_responsive {
+  border: 1px solid #DCDCDC;
+  display: inline;
+  float: left;
+  padding: 15px 15px;
+  width: 100%;  
+  margin-left:0px;
+  background-color:#009933; 
+}
+.desktop_icon{
+  color:#000000;
+  display: inline-block;
+  font-size: 48px !important;
+  margin-top: 20px;
+}
+.font_icon {
+  color: #000000;
+  display: inline-block;
+  font-size: 48px !important;
+  margin-top: 20px;
+}
+.html_icon{
+  color: #000000;
+  display: inline-block;
+  font-size: 48px !important;
+  margin-top: 20px;
+}
+.single_features_responsive img{
+  margin-top: 70px;
+}
+.single_features_responsive h2 {
+  color:  #000000;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.single_features_responsive p {
+  color:#FFFFFF;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.features_productarea {
+  border-top: 1px solid #DCDCDC;
+  display: inline;
+  float: left;
+  margin-top: 155px;
+  padding-top: 142px;
+  position: relative;
+  width: 100%;
+}
+
+.featprodcs_img{
+  float: left;
+  display: inline;
+  width: 95%;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.featprodcs_content {
+  display: inline;
+  float: left;
+  text-align: left;
+  width: 100%;
+  margin-left: 0px;
+}
+.features_widget{
+  margin-top: 35px;
+}
+.featprodcs_content h1{
+  text-align: left;
+  color: #FFD200;  
+  font-size: 47px;
+  margin-bottom: 30px;
+  margin-top: 0px;  
+}
+.featprodcs_content p{
+  text-align: left;
+  color: #606060;
+  font-size: 17px;  
+}
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+.clock_icon {
+  color: #ffd200;
+  display: block;
+  font-size: 48px !important;
+  height: 50px;
+  margin-top: 17px;
+  width: 66px;
+}
+.media_content{padding-left: 6px;}
+.media_content h4{
+  color: #FFD200;
+  font-size: 20px;  
+}
+.media_content p{
+  color: #606060;
+  font-size: 17px;  
+}
+.direction_icon {
+  background: none repeat scroll 0 0 #FFFFFF;
+  left: 43%;
+  padding: 0 12px;
+  position: absolute;
+  text-align: center;
+  top: -19px;
+  width: 185px;
+}
+.dirc_up {
+  border: 1px solid #E3E3E3;
+  border-radius: 100%;
+  color: #E3E3E3;
+  display: inline-block;
+  font-size: 30px;
+  height: 42px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 42px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.dirc_down{
+  border: 1px solid #E3E3E3;
+  border-radius: 100%;
+  color: #E3E3E3;
+  display: inline-block;
+  font-size: 30px;
+  height: 42px;
+  width: 42px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.dirc_down:hover,.dirc_down:focus,.dirc_up:hover,.dirc_up:focus{
+  border: 1px solid #ffd200;
+  color: #FFFFFF;
+  background-color: #ffd200;
+  outline: none;
+  text-decoration: none;
+}
+.secondfeatures_prodsarea{
+  float: left;
+  display: inline;
+  width: 100%;
+  margin-top:198px;
+}
+.sample_appparea{margin-top: 145px;}
+.app_content{
+  float: left;
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+.app_content h1 {
+  color: #FFD200;  
+  font-size: 47px;
+  margin-bottom: 15px;
+}
+.app_content p{
+  color: #606060; 
+  font-size: 18px;
+  line-height: 28px;
+}
+.app_area {
+  background-color: #F8F8F8;
+  display: inline;
+  float: left;
+  margin-top: 185px;
+  width: 100%;
+}
+.app_img{
+  margin-top:-115px;
+}
+.apparea_content h1{
+  margin-top: 38px;
+
+}
+.chapterNav {
+  width: 100%;
+}
+.chapterNav li {
+   -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #DCDCDC;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 1px medium;
+  background-color: #f8f8f8;
+}
+.chapterNav li:last-child{
+ border-bottom: 1px solid #DCDCDC;
+}
+.chapterNav li a{
+  color: #606060;  
+  font-size: 18px;
+  line-height: 28px;
+}
+.chapterNav li a:hover,.chapterNav li a:focus{
+  background-color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+.appdownload_area {
+  background-image: url("img/download_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline;
+  float: left;
+  margin-top: -111px;
+  width: 100%;
+}
+.appdownload {
+  display: inline;
+  float: left;
+  padding-bottom: 50px;
+  padding-top: 59px;
+  text-align: center;
+  width: 100%;
+}
+.appdownload p{
+  color: #fff;
+  font-size: 30px;  
+}
+.appdownload p > span { 
+  margin-right: 5px;
+}
+.appdown_btn{
+  margin-top: 36px;
+}
+/*--------------------*/
+/* FOOTER */
+/*--------------------*/
+
+#footer{
+  float: left;
+  display: inline;
+  width: 100%;
+  background-color: black;
+  padding: 25px 0px
+}
+
+.footer_area{
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
+.footer_area p{
+  color: #46ce31;
+  font-size: 15px; 
+}
+.footer_area p>a{
+  color: grey;
+  margin-right: 5px;
+}
+.slider_area{
+  float: left;
+  display: inline;
+  width: 100%;
+}
+/*--------*/
+/* PANELS */
+/*--------*/
+/*--------------------------*/
+/*---SEARCH YOUR ID PANEL --*/
+/*..........................*/
+.panel-primary{
+	border: 0px;
+}
+.panel-primary:focus,
+.panel-primary:hover,
+.panel-primary:active{
+	border: 0px solid white;
+}
+.panel-heading{
+	
+	color: white;
+}
+.panel-heading h4{
+	font-size: 15px;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.panel-title{
+
+}
+.panel-body{
+  border: 2px solid rgba(0,0,0,0.1);
+  margin-bottom:0px;
+  display: block;
+
+}
+.panel-body label{
+  color: black;
+  display: none;
+}
+.panel-body input {
+width: 80%;
+}
+#showSearch{
+padding: 23px 15px;
+background-color:#F02620;
+
+font-size: 25px;
+font-weight: 700px;
+}
+#showSearch:hover,
+#showSearch:focus{
+opacity: 0.7;
+background-color::#F02620;
+border: 3px solid white;
+
+}
+#searchPanel{
+ 
+  margin-bottom: 0px;
+}
+.submit-section{
+  text-align: center;
+margin-bottom: 0px;
+padding: 10px;
+}
+.btn-block{
+  width: 50%;
+   padding: 20px;
+   border:2px solid white;
+   background:#F02620;
+   border-radius: 40px;
+}
+
+.form-group .form-controla{
+	width: 70%;
+	margin-left: 15%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.1); 
+  box-shadow: 0 10px 6px -6px rgba(0,0,0,0.2); 
+  border-radius: 0px 0px 0px 0px;  
+  font-size: 15px;
+}
+.search-btn{
+	color: white;
+	font-size: 15px;
+ margin-top: 20px;
+  padding: 20px;
+   border: 0px solid rgba(0,0,0,0.8);
+   background: #F02620;
+   left: 0px;
+   font-weight: 900;
+    box-shadow: 0 10px 6px -6px rgba(0,0,0,0.2);
+}
+
+.btn-block:hover,
+.btn-block:focus{
+  opacity: 0.7;
+   padding: 20px;
+   border:2px solid white;
+   background:#F02620;
+   border-radius: 40px;
+
+}
+.results-form{
+	width:50%;
+	margin-left: 25%;
+}
+@media screen and (max-height: 600px) {
+	.results-form{
+	width:100%;
+	margin-left: 0%;
+}
+  .main-text{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  }
+  .main-text2{
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Calibri Light;
+}
+  .form-group .form-controla{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%; 
+
+	margin-left: 0%;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.1); 
+  box-shadow: 0 10px 6px -6px rgba(0,0,0,0.2); 
+  border-radius: 3px 3px 0px 0px;  
+  font-size: 15px; 
+  color: black;
+}
+.search-btn{
+	color: white;
+	font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   border: 0px solid rgba(0,0,0,0.8);
+   background: #F02620;
+   left: 0px;
+   font-weight: 900;
+    box-shadow: 0 10px 6px -6px rgba(0,0,0,0.2);
+}
+  .panel-title{
+font-size: 15px;
+font-weight: 700;
+}
+.panel-body{
+text-align: center;  
+  margin-bottom:0px;
+  display: block;
+
+}
+.panel-body input {
+width: 100%;
+
+}
+
+.form-group .form-control{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px;
+ 
+   width: 100%;
+}
+}
+
+.form-group .form-control{
+
+  border-radius: 2px;
+   width: 90%;
+   margin-left: 5%;
+   border: 2px solid rgba(0,0,0,0.1)
+
+}
+
+.fa-check{
+	color: orange;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 50px;
+	border: 4px solid orange;
+}
+.fa-times{
+	color: red;
+	text-align: center;
+	border-radius: 120px;
+	font-size: 50px;
+	border: 4px solid red;
+
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/***********************/
+/***** VERIFICATION*****/
+/***********************/
+.verify-fail{
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: Calibri Light;
+
+}
+.verify-fail h1{
+  
+  font-weight: 700;
+
+}
+.verify-fail h3{
+font-weight: 700;
+}
+.verify-fail p{
+font-weight: 700;
+}
+.payments-page{
+  font-family: Calibri Light;
+  text-align: center;
+}
+.payments-page h1{
+  text-transform: uppercase;
+}
+.payments-page p{
+ 
+}
