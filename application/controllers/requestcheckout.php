@@ -23,7 +23,7 @@ $this->load->helper('date');
 function index(){
 $ENDPOINT = "https://safaricom.co.ke/mpesa_online/lnmo_checkout_server.php?wsdl";
 
-$CALLBACK_URL = "http://crackthecode.co.ke/MPESA/processcheckout.php";
+$CALLBACK_URL = "http://localhost:3000/lostitems/index.php/processcheckout.php";
 $CALL_BACK_METHOD = "POST";
 
 $PAYBILL_NO = "970117";
